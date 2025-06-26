@@ -24,6 +24,8 @@
     }
 
     .logo {
+        display: flex;
+        align-items: center;
         max-width: 130px;
         max-height: 40px;
     }
@@ -34,6 +36,15 @@
         line-height: 130%;
         letter-spacing: 0;
         color: var(--black);
+    }
+}
+@media (max-width:1400px) {
+    .header .logo {
+        max-width: clamp(115px,20vw,130px);
+        min-width: clamp(115px,20vw,130px);
+        img {
+            width: 100%;
+        }
     }
 }
 
