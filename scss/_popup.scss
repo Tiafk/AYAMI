@@ -171,9 +171,12 @@
     }
 }
 @media (max-width:840px) {
-    // .popup {
-    //     bottom: 0;
-    // }
+    .popup {
+        bottom: 0;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
     .popup__wrapper {
         flex-direction: column-reverse;
         overflow: auto;
