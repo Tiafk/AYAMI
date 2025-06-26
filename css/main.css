@@ -275,6 +275,7 @@
   transform: translate(-50%, -50%);
   justify-content: center;
   width: 100%;
+  max-width: 1043px;
   max-height: 473px;
   overflow: hidden;
   z-index: 100000;
